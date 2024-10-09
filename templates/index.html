@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Renomeador de Fotos</title>
+</head>
+<body>
+    <h1>Renomeador de Fotos</h1>
+    <form method="post" enctype="multipart/form-data">
+        <label for="planilha">Planilha Excel:</label>
+        <input type="file" name="planilha" id="planilha" required><br><br>
+
+        <label for="fotos_zip">Pasta de Fotos (compactada em .zip):</label>
+        <input type="file" name="fotos_zip" id="fotos_zip" required><br><br>
+
+        <button type="submit">Processar</button>
+    </form>
+</body>
+</html>
